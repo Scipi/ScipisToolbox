@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=1]
+
+[ext_resource path="res://TextureShapes/shaders/tex_shape.tres" type="Shader" id=1]
+[ext_resource path="res://TextureShapes/driver.gd" type="Script" id=2]
+[ext_resource path="res://TextureShapes/img/icon.png" type="Texture" id=3]
+
+[sub_resource type="CanvasItemMaterial" id=1]
+
+shader/shader = ExtResource( 1 )
+shader/shading_mode = 0
+
+[node name="root" type="Node2D"]
+
+material/material = SubResource( 1 )
+transform/pos = Vector2( 501.5, 279.5 )
+transform/scale = Vector2( 4.26563, 4.26563 )
+script/script = ExtResource( 2 )
+tex = ExtResource( 3 )
+
+

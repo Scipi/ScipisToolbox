@@ -1,0 +1,7 @@
+[gd_resource type="CanvasItemShaderGraph" format=1]
+
+[resource]
+
+_code = { "fragment":"vec3 nd1sl2=vec3(UV,0);\nvec4 rt_default_tex2=tex(TEXTURE,nd1sl2.xy);\nvec3 nd2sl0=rt_default_tex2.rgb;\nfloat nd2sl1=rt_default_tex2.a;\nCOLOR.rgb=nd2sl0;\nCOLOR.a=nd2sl1;\n", "fragment_ofs":0, "light":"", "light_ofs":0, "vertex":"", "vertex_ofs":0 }
+_data = { "shaders":[ [ 0, 33, Vector2( 350, 40 ), null, null, [  ], 1, 0, Vector2( 50, 40 ), null, null, [  ] ], [ 0, 33, Vector2( 600, 40 ), null, null, [ 0, 2, 0, 1, 2, 1 ], 1, 0, Vector2( 50, 40 ), null, null, [  ], 2, 32, Vector2( 280, 80 ), null, null, [ 0, 1, 2, 2147483647, 0, null ] ], [ 0, 33, Vector2( 350, 40 ), null, null, [  ], 1, 0, Vector2( 50, 40 ), null, null, [  ] ] ] }
+
