@@ -29,9 +29,7 @@ func _draw():
 	var g = randf()
 	var b = randf()
 	
-	print(r, ", ", g, ", ", b)
-	
-	draw_colored_polygon(points, Color(randi()))
+	draw_colored_polygon(points, Color(r, g, b))
 	
 
 
